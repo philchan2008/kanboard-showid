@@ -1,25 +1,52 @@
-#id_buttom {
-    display: none;
+#id_bottom_right {
+    display: block;
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    font-size: 16px; /* Increase font size */
+    font-size: 20px; /* Increase font size */
     transition: ease all 0.5s; /* Add smoothing when hover */
 }
 
-#id_top {
+#id_bottom_left {
     display: none;
     position: fixed; /* Fixed/sticky position */
-    top: 10px; /* Place the button at the bottom of the page */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    left: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    font-size: 20px; /* Increase font size */
+    transition: ease all 0.5s; /* Add smoothing when hover */
+}
+
+#id_top_right {
+    display: none;
+    position: fixed; /* Fixed/sticky position */
+    top: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    font-size: 16px; /* Increase font size */
+    font-size: 20px; /* Increase font size */
     transition: ease all 0.5s; /* Add smoothing when hover */
+}
+
+#id_sidebar_title {
+    display: none;
+}
+
+#id_head {
+    display: block;
+    position: relative;
+    padding: 2px;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    font-size: 27px; /* Increase font size */
+    transition: ease all 1s; /*Add smoothing when hover */
 }
 
 

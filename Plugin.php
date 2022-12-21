@@ -11,6 +11,7 @@ class Plugin extends Base
         $this->hook->on('template:layout:js', array('template' => 'plugins/ShowId/showid.js'));
         $this->template->hook->attach('template:task:details:first-column', 'ShowId:task/id_bot');
         $this->template->hook->attach('template:task:details:first-column', 'ShowId:task/id_top');
+        $this->template->hook->attach('template:task:sidebar:information', 'ShowId:task/id_head');
         $this->template->hook->attach('template:task:show:bottom', 'ShowId:task/id_section');
     }
     public function getPluginName()

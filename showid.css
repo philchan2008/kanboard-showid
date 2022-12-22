@@ -38,15 +38,18 @@
     display: none;
 }
 
-#id_head {
+#id_sidebar_head {
     display: block;
     position: relative;
     padding: 2px;
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
+    border-radius: 5px 5px 5px 5px;
     outline: none; /* Remove outline */
     font-size: 27px; /* Increase font size */
-    transition: ease all 1s; /*Add smoothing when hover */
+    transition: ease all 0.5s; /*Add smoothing when hover */
 }
 
-
+.HideID {
+    display: none;
+}

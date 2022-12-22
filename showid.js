@@ -26,9 +26,9 @@ $(window).scroll(function() {
         $('#id_sidebar_head').fadeIn();
         $('#id_sidebar_head').css({
             position: 'fixed',
-            top: '30px',
+            top: '10px',
             left: '155px',
-            fontSize: '22px'
+            fontSize: '20px'
         });
     } else {
         $('#id_sidebar_head').fadeOut();

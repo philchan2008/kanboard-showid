@@ -47,6 +47,20 @@ $(document).ready(function () {
     $('.sidebar-title').first().html($('#id_sidebar_title').html());
     $('#task-summary').find('h2').html($('#id_task_title').html());
     $('.comment').each(function(index) {
-       $(this).find('.comment-title').html($('#id_comment_title').html().replace("$comment_id",$(this).attr('id').replace("comment-","").trim())+$(this).find('.comment-title').html());
+       $(this).find('.comment-title').html(
+        $('#id_comment_title').html().replace(
+            "$comment_id",
+            $(this).attr('id').replace("comment-","").trim())
+            +$(this).find('.comment-title').html());
     });
+    $('.subtasks-table > tbody > tr').each(function(index) {
+        $(this).find('.subtask-title a').html(
+            '<div>'+
+            $(this).find('.subtask-title a').html() +
+            $('#id_subtask_title').html().replace(
+                "$subtask_id",
+                $(this).attr("data-subtask-id"))
+            +'</div>'
+        );
+     });
 });

@@ -53,3 +53,7 @@
 .HideID {
     display: none;
 }
+
+.subtask_id {
+    font-size: x-small;
+}

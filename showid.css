@@ -56,4 +56,5 @@
 
 .subtask_id {
     font-size: x-small;
+    white-space: pre;
 }

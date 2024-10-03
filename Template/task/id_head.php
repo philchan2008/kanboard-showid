@@ -9,7 +9,7 @@
 <div id="id_task_title"  class="HideID">
     <div id="id_task_head"  class="ShowID">
         <div style="color: gray; ">
-        #<font color="pink">K</font><font color="lightgray">B</font>🆔<?=$task['id']?>: <font color="black"><?=$task['title']?></font>
+        <font color="pink">K</font><font color="lightgray">B</font>🆔<?=$task['id']?>: <font color="black"><?=$task['title']?></font>
         </div>
     </div>
 </div>

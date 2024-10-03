@@ -21,9 +21,9 @@
 </div>
 
 <div id="id_comment_title"  class="HideID">
-<span style="color: gray; "><font color="pink">K</font><font color="lightgray">B</font>🆔<?=$task['id']?>-💬$comment_id</span>
+<span style="color: gray; "><font color="pink">K</font><font color="lightgray">B</font>🆔<?=$task['id']?>💬$comment_id</span>
 </div>
 
 <span id="id_subtask_title"  class="HideID">
-<span class="subtask_id"><font color="pink">K</font><font color="lightgray">B</font>🆔<?=$task['id']?>-🔖$subtask_id</i></span>
+<span class="subtask_id"><font color="pink">K</font><font color="lightgray">B</font>🆔<?=$task['id']?>🔖$subtask_id</i></span>
 </span>
